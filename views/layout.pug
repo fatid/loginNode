@@ -4,4 +4,13 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    div(id="exercise")
+      block content 
+       div
+         button(@click='efClass = !efClass') Efekti Başlat!
+         #effect(:class='{ highlight : efClass, shrink : !efClass  }') {{ efClass }}
+
+
+  block javascript
+    script(src="/vue/dist/vue.min.js")  
+    script(src="/javascripts/main.js")  

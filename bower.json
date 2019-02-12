@@ -1,0 +1,24 @@
+{
+  "name": "loginnode",
+  "description": "",
+  "main": "",
+  "authors": [
+    "fatid <fatihd@fatihd.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "login",
+    "node"
+  ],
+  "homepage": "https://github.com/fatid/loginNode",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.6.6"
+  }
+}
